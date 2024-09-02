@@ -1,7 +1,7 @@
 $(function(){
     $('.togggle_btn').on('click', function () {
         console.log("クリックした");
-        if ($('#header').hasClass('openn')) {
+        if ($('#header').hasClass('open')) {
             $('#header').removeClass('open');
         } else {
             $('#header').addClass('open');
